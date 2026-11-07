@@ -1,0 +1,25 @@
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+backend/venv/
+backend/.env
+backend/test_shelf.png
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env*.local
+
+# Media & Videos
+raw-assets/*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model Weights (Local Only - Never Commit to Git)
+*.pt
+best.pt
+backend/models/*.pt
+raw-assets/*.pt
