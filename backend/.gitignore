@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Test & log files
+test_shelf.png
+*.log
+.DS_Store
+
+# Model Weights (Local Only - Never Commit to Git)
+models/*.pt
+*.pt

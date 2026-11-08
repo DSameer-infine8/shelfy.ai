@@ -1,0 +1,30 @@
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-dotenv>=1.0.1
+
+# ML & Computer Vision
+ultralytics>=8.4.166
+opencv-python-headless>=4.10.0
+pillow>=10.4.0
+numpy>=1.26.0,<2.1.0
+
+# OCR Engines & NLP Matching
+paddleocr>=3.3,<3.8
+paddlepaddle>=3.3,<3.5
+rapidfuzz>=3.9.0
+
+# Web Scraping & Data Processing
+beautifulsoup4>=4.12.3
+pandas==2.2.3
+requests==2.32.4
+httpx>=0.27.0
+psycopg2-binary>=2.9.9
+
+# Google Gemini & LLM Orchestration
+google-genai>=0.8.0
+langchain-google-genai>=2.0.0
+langchain-core>=0.3.0
